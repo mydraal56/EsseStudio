@@ -1,0 +1,79 @@
+.secondary {    
+	box-shadow: 0 0 1px rgba(0, 0, 0, 0.15);
+    content: "";
+    display: block;
+    height: 100%;
+    min-height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 29.4118%;
+    z-index: 0;
+    background-color: #4babcc;
+    width: calc(50% - 289px);
+}
+
+.primary {
+	
+}
+
+body {
+	
+	background-color: white; 
+}
+
+h1 {
+	
+	text-align: center;
+}
+
+ul {
+	
+	 border: 0;
+	 border-color: rgba( 255, 255, 255, 0.1);
+    font-family: inherit;
+    font-size: 100%;
+    font-style: inherit;
+    font-weight: inherit;
+    margin: 0;
+    outline: 0;
+    padding: 0;
+    vertical-align: baseline;
+	
+	-webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    -webkit-padding-start: 40px;
+}
+
+.menu
+{
+	    border: 0;
+    
+    list-style-type: none;
+    display: table;
+    margin: 25px;
+    padding: 25px;
+    overflow: hidden;
+    width: 100%;
+    
+}
+
+.entry-content{
+	
+	padding-left: 40%;
+	background-color: white; 
+}
+
+.aligncenter {
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.Essefooter {
+	
+	text-align: center;
+	color: black; 
+}
