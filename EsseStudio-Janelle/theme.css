@@ -19,7 +19,7 @@
 
 body {
 	
-	background-color: white; 
+	background-color: grey; 
 }
 
 h1 {
@@ -62,7 +62,7 @@ ul {
 
 .entry-content{
 	
-	padding-left: 40%;
+	
 	background-color: white; 
 }
 
@@ -75,5 +75,16 @@ ul {
 .Essefooter {
 	
 	text-align: center;
-	color: black; 
+	color: black;
+	background-color: white;  
+}
+
+.section {
+	
+    display: block;
+    float: left;
+    margin-left: 35.4118%;
+    width: 60.5882%;
+    background-color: grey;
+    float: bottom; 
 }
