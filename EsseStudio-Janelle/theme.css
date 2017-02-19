@@ -19,7 +19,7 @@
 
 body {
 	
-	background-color: grey; 
+	background-color: #e2e2e2; 
 }
 
 h1 {
@@ -53,17 +53,27 @@ ul {
     
     list-style-type: none;
     display: table;
-    margin: 25px;
-    padding: 25px;
+    
+    
     overflow: hidden;
     width: 100%;
     
 }
 
+.menu-container {
+	display: block;
+	.aligncenter;
+}
+
+.menu-li {
+	text-align: center; 
+}
 .entry-content{
 	
 	
 	background-color: white; 
+	margin: 30px; 
+	padding: 5%; 
 }
 
 .aligncenter {
@@ -75,8 +85,11 @@ ul {
 .Essefooter {
 	
 	text-align: center;
-	color: black;
+	color: rgba( 34, 49, 63, 0.7);;
+	height: 100px;
+	padding: 1%;
 	background-color: white;  
+	vertical-align: bottom;
 }
 
 .section {
@@ -85,6 +98,6 @@ ul {
     float: left;
     margin-left: 35.4118%;
     width: 60.5882%;
-    background-color: grey;
+    background-color: #e2e2e2;
     float: bottom; 
 }
