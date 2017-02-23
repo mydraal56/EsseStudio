@@ -20,6 +20,7 @@
 body {
 	
 	background-color: #e2e2e2; 
+	font-family:Noto-serif,  Helvetica; 
 }
 
 h1 {
@@ -62,7 +63,8 @@ ul {
 
 .menu-container {
 	display: block;
-	.aligncenter;
+	text-align: -webkit-match-parent; 
+	line-height: 1.5; 
 }
 
 .menu-li {
