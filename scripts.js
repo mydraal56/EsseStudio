@@ -1,12 +1,17 @@
 //alert('this is a test');
 //this is the test
 //test test
+/*var app = angular.module("mainBody", ["ngRoute"]);
+app.config(function($routeProvider){
+    $routeProvider
+    .when("/", { 
+        templateUrl: "https://s3.amazonaws.com/essestudio.com/home/home.html"
+    })
+    .when("/staff", { 
+        templateUrl: "https://s3.amazonaws.com/essestudio.com/staff/staff.html"
+    });
 
-function pageLoad(page) { 
-    var g = document.getElementById("MainPage");
-    
-    $("#MainPage").load(page);
-}
+});*/
 
 function menuBar() { 
     //alert('running menuBar function');
@@ -32,3 +37,5 @@ function menuBar() {
     //menu.style.display = 'block';
 
 }
+
+
