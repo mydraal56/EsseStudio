@@ -17,9 +17,7 @@
 
 
 
-.primary {
-	
-}
+
 
 html {
 	
@@ -42,7 +40,7 @@ h1 {
 
 nav {
 	
-	font-size: 1.9rem; 
+	font-size: 1.2rem; 
 	margin: 20% 20% 20%; 
 	line-height: 1.5; 
 	display: block;
@@ -97,17 +95,11 @@ a {
 	display: block; 
 	
 }
-.menu
-{
-	    
-    
-    
-    
-}
+
 
 .menu-container {
 	display: block;
-/*	text-align: -webkit-match-parent; */
+	text-align: -webkit-match-parent; 
 	line-height: 1.5; 
 }
 
@@ -253,10 +245,6 @@ a {
 	
 	}
 	
-	.site-main {
-	
-	
-	
-	}
+
 	
 }
