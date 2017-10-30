@@ -1,0 +1,26 @@
+.weddingtitle { 
+    font-size: 3em; 
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+.email { 
+	/*background-color: blue; */
+	color: green; 
+	font-weight: bolder
+}
+
+.email span{ 
+	background-color: white; 
+    text-shadow: 1px 1px 3px #888888;
+    font-size: 1.5em;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+
+
+.name li  {
+
+    float: left;
+    padding: 5% 0% 0% 5%; 
+    
+}

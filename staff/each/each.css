@@ -1,0 +1,33 @@
+header { 
+    background-color: darkgrey;
+}
+html, body, h1 { 
+    margin: 0px;
+    padding: 0px;
+}
+h1 { 
+    
+    padding: 1%;
+    
+}
+
+a { 
+    float: right; 
+    background-color: #e2e2e2;
+    color: darkgrey;
+    padding: 2px;
+    padding-right: 4px; 
+    font-size: .75em; 
+}
+
+a:hover { 
+    color: white; 
+}
+
+.imgbed {
+    background-color: white;
+    box-shadow:10px 10px 5px #888888;
+    margin: 5%; 
+    padding: 2%; 
+}
+}

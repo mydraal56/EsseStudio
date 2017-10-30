@@ -1,0 +1,26 @@
+
+
+.stafftitle { 
+    font-size: 3em;
+    font-weight: border: width border-style color; 
+}
+
+.staffname { 
+	/*background-color: blue; */
+	color: green; 
+	font-weight: bolder;
+    background-color: white; 
+    text-shadow: 1px 1px 3px #888888;
+    
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 2.5em;
+    
+}
+
+.staffname span{ 
+	background-color: white; 
+    text-shadow: 1px 1px 3px #888888;
+    
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 2.5em;
+}
