@@ -214,7 +214,7 @@ a {
 		padding: 1%;
 	}
 	
-	.secondary 
+	/*.secondary 
 	{
 	 
 	 padding: 0px;
@@ -224,16 +224,64 @@ a {
     display: block;
     position: relative; 
     min-height: 1%; 
-   
-   
-    
     z-index: 1;
     background-color: #4babcc;
-   		
-	
 	width: 100%;
 	}
 	
+	.menu-container { 
+		
+		
+		background-color: white;
+		height: 100%;
+	}
+	.menu-container a {
+		color: black; 
+		background-color: white;
+		line-height: 2.5em;
+		font-size: 3.3em; 
+		
+	}
+	*/
+	
+
+	.secondary
+	{
+		/*display: none;*/
+		width: 40%;
+		z-index: 1;
+	}
+
+	.menu 
+	{
+		font-size: 1.6em;
+	}
+
+	.menu-container 
+	{ 
+		margin: 0px; 
+		padding: 0px; 
+	}
+
+	.logoImg { 
+		margin: 0px; 
+		padding: 0px; 
+		width: 100%
+		
+		
+	}
+
+	.hamIcon { 
+		display: none; 
+		margin: 5%; 
+	
+		position: absolute;
+		top: 0px;
+		right: 0px; 
+
+		color: white; 
+	}
+
 	body:before {
 	width: 0px;
 	background-color: #e2e2e2;
@@ -263,12 +311,7 @@ a {
 		display: none;
 	}
 
-	.logoImg { 
-		margin: 0px; 
-		padding: 0px; 
-		
-		
-	}
+
 	
 	.widget {
 	margin: 0px; 
@@ -281,16 +324,7 @@ a {
 	
 	}
 
-	.hamIcon { 
-		display: block; 
-		margin: 5%; 
 	
-		position: absolute;
-		top: 0px;
-		right: 0px; 
-
-		color: white; 
-	}
 	i.hamIcon:hover { 
 		color: red; 
 	}
@@ -346,19 +380,7 @@ a {
 	
 	}
 
-	.menu-container { 
-		display: none;
-		
-		background-color: white;
-		height: 100%;
-	}
-	.menu-container a {
-		color: black; 
-		background-color: white;
-		line-height: 2.5em;
-		font-size: 3.3em; 
-		
-	}
+	
 	
 	article { 
 		height: 100%; 
