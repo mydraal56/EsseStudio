@@ -190,7 +190,7 @@ a {
 	}
 	.mainImgMed { 
 		display:block;
-		padding-top: 5%;
+		margin-top: 5%;
 	}
 	.phone {
 		color: blue; 
@@ -247,20 +247,43 @@ a {
 
 	.secondary
 	{
-		/*display: none;*/
-		width: 40%;
+		display: block;
+		width: 0%;
 		z-index: 1;
+		transition: .5s;
 	}
 
-	.menu 
+	.secondary a
+	{
+		width: 0%;
+	}
+
+		.menu 
 	{
 		font-size: 1.6em;
+		
+		
 	}
+
+	 .menu li
+	 {
+		font-size: 1.6em;
+		width: 0;
+		transition-delay: 1s;
+		/*display: none;
+		transition-duration: 0s;
+		transition-delay: 1s;
+		transition-timing-function: linear;*/
+		 
+		 
+	 }
+
 
 	.menu-container 
 	{ 
 		margin: 0px; 
 		padding: 0px; 
+		
 	}
 
 	.logoImg { 
@@ -272,14 +295,20 @@ a {
 	}
 
 	.hamIcon { 
-		display: none; 
-		margin: 5%; 
+		display: block; 
+		background-color: #4babcc;
+		padding: 5%; 
+		font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+		font-weight: bolder;
+		color:  #e2e2e2; 
+		text-align: right;
 	
-		position: absolute;
+		/*position: absolute;*/
 		top: 0px;
 		right: 0px; 
+		 
 
-		color: white; 
+		
 	}
 
 	body:before {
@@ -304,11 +333,15 @@ a {
 	}
 	.mainImgSm { 
 		display: block; 
-		padding-top: 5%;
+		margin-top: 5%;
+		
 	}
 
 	.mainImgMed{ 
 		display: none;
+	}
+	.entry-content {
+		box-shadow: none; 
 	}
 
 

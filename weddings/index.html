@@ -30,12 +30,10 @@
 	
 	<div class="secondary" id="secondary">
 	<img src="..\images\logo-200.png"  class="logoImg"/>
-	<span onclick="menuBar()">
-		<i class="fa fa-bars fa-5x hamIcon"></i>
-	</span>
+	
 	<nav id="site-navigation" role="navigation" class="nav">
 		<div id="menuList" class="menu-container aligncenter">
-			<ul class="menu">
+			<ul id="menu" class="menu">
 				<li id="menu-item-21" class="menu-li"><a href="..\index.html">Home</a></li>
 				<li id="menu-item-16" class="menu-li"><a href="..\services\index.html">Services</a></li>
 				<li id="menu-item-16" class="menu-li"><a href="..\weddings\index.html">Weddings</a></li>
@@ -73,7 +71,9 @@
 
 <div id="primary" class="section">
 	<main id="main" class="site-main" role="main">
-
+		<div class="hamIcon" onclick="menuBar()">
+			MENU
+		</div>
 		
 		<article>
 			<link rel="stylesheet" type="text/css" href="staff.css">
