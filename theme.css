@@ -22,6 +22,10 @@ body {
 	font-family:Noto-serif,  Helvetica; 
 }
 
+img { 
+	border-radius: 25px; 
+}
+
 h1.name {
 	
 	text-align: center; 
@@ -31,7 +35,7 @@ h1.name {
 nav {
 	
 	font-size: 1.9rem; 
-	margin: 20% 20% 20%; 
+	margin:5% 20% 5% 20%; 
 	line-height: 1.5; 
 	display: block;
 	
@@ -168,6 +172,13 @@ a {
 	display: none;
 }
 
+.phone {
+		color: black; 
+		font-family: inherit;
+		
+	}
+
+
 @media screen  and (min-width: 501px) and (max-device-width : 1200px) {
 
 	ul { 
@@ -179,7 +190,11 @@ a {
 	}
 	.mainImgMed { 
 		display:block;
-		padding-top: 5%;
+		margin-top: 5%;
+	}
+	.phone {
+		color: blue; 
+		text-decoration: underline; 
 	}
 
 	
@@ -199,7 +214,7 @@ a {
 		padding: 1%;
 	}
 	
-	.secondary 
+	/*.secondary 
 	{
 	 
 	 padding: 0px;
@@ -209,16 +224,93 @@ a {
     display: block;
     position: relative; 
     min-height: 1%; 
-   
-   
-    
     z-index: 1;
     background-color: #4babcc;
-   		
-	
 	width: 100%;
 	}
 	
+	.menu-container { 
+		
+		
+		background-color: white;
+		height: 100%;
+	}
+	.menu-container a {
+		color: black; 
+		background-color: white;
+		line-height: 2.5em;
+		font-size: 3.3em; 
+		
+	}
+	*/
+	
+
+	.secondary
+	{
+		display: block;
+		width: 0%;
+		z-index: 1;
+		transition: .5s;
+	}
+
+	.secondary a
+	{
+		width: 0%;
+	}
+
+		.menu 
+	{
+		font-size: 1.6em;
+		
+		
+	}
+
+	 .menu li
+	 {
+		font-size: 1.6em;
+		width: 0;
+		transition-delay: 1s;
+		/*display: none;
+		transition-duration: 0s;
+		transition-delay: 1s;
+		transition-timing-function: linear;*/
+		 
+		 
+	 }
+
+
+	.menu-container 
+	{ 
+		margin: 0px; 
+		padding: 0px; 
+		
+	}
+
+	.logoImg { 
+		margin: 0px; 
+		padding: 0px; 
+		width: 100%
+		
+		
+	}
+
+	.hamIcon { 
+		display: block; 
+		background-color: #4babcc;
+		padding: 5%; 
+		font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+		font-weight: bolder;
+		color:  #e2e2e2; 
+		text-align: right;
+	
+		/*position: absolute;*/
+		top: 0px;
+		right: 0px; 
+		 
+
+		
+	}
+
 	body:before {
 	width: 0px;
 	background-color: #e2e2e2;
@@ -241,19 +333,18 @@ a {
 	}
 	.mainImgSm { 
 		display: block; 
-		padding-top: 5%;
+		margin-top: 5%;
+		
 	}
 
 	.mainImgMed{ 
 		display: none;
 	}
-
-	.logoImg { 
-		margin: 0px; 
-		padding: 0px; 
-		
-		
+	.entry-content {
+		box-shadow: none; 
 	}
+
+
 	
 	.widget {
 	margin: 0px; 
@@ -266,16 +357,7 @@ a {
 	
 	}
 
-	.hamIcon { 
-		display: block; 
-		margin: 5%; 
 	
-		position: absolute;
-		top: 0px;
-		right: 0px; 
-
-		color: white; 
-	}
 	i.hamIcon:hover { 
 		color: red; 
 	}
@@ -331,19 +413,7 @@ a {
 	
 	}
 
-	.menu-container { 
-		display: none;
-		
-		background-color: white;
-		height: 100%;
-	}
-	.menu-container a {
-		color: black; 
-		background-color: white;
-		line-height: 2.5em;
-		font-size: 3.3em; 
-		
-	}
+	
 	
 	article { 
 		height: 100%; 
@@ -362,5 +432,10 @@ a {
 		font-size:1.4em;
 		text-align:center;
 
+	}
+	
+	.phone {
+		color: blue; 
+		text-decoration: underline; 
 	}
 }

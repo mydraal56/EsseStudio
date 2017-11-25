@@ -4,18 +4,21 @@
 	<!--  <meta name="viewport" content="width=device-width"> -->
 	
 	<link rel='stylesheet' id='twentyfifteen-fonts-css'  href='https://fonts.googleapis.com/css?family=Noto+Sans%3A400italic%2C700italic%2C400%2C700%7CNoto+Serif%3A400italic%2C700italic%2C400%2C700%7CInconsolata%3A400%2C700&#038;subset=latin%2Clatin-ext' type='text/css' media='all' />
-	<link rel='stylesheet' id='genericons-css'  href='https://www.essestudio.com/wp-content/themes/twentyfifteen/genericons/genericons.css?ver=3.2' type='text/css' media='all' />
-	<link rel='stylesheet' id='twentyfifteen-style-css'  href='https://www.essestudio.com/wp-content/themes/twentyfifteen/style.css?ver=4.7.2' type='text/css' media='all' />
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-	<link rel="stylesheet" type="text/css" href="theme.css">
-	<!--  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.6.4/jquery.min.js"></script> -->
 	
-	<script src="scripts.js"></script>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="..\theme.css">
+	<link rel="stylesheet" type="text/css" href="services.css">
 		
+	<!--<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular-route.js"></script>-->
+	<script src="..\scripts.js"></script>
+	
+	<title>Esse: Home</title>
 		
 	
 </head>
 
+<!--<body ng-app="mainBody">-->
 <body>
 
 	<a class="skip-link screen-reader-text" href="#content" style="display: none;">Skip to content</a>
@@ -26,17 +29,19 @@
 			
 	
 	<div class="secondary" id="secondary">
-	<img src="../images/logo-200.png"  class="logoImg"/>
-	<i class="fa fa-bars fa-5x hamIcon"></i>
+	<img src="..\images\logo-200.png"  class="logoImg"/>
+	
 	<nav id="site-navigation" role="navigation" class="nav">
-		<div class="menu-container aligncenter">
-			<ul id="menu aligncenter" class="menu">
-				<li id="menu-item-21" class="menu-li"><a href="../home/index.html">Home</a></li>
-				<li id="menu-item-16" class="menu-li"><a href="../services/index.html">Services</a></li>
-				<li id="menu-item-54" class="menu-li"><a href="../staff/index.html">Staff</a></li>
-				<li id="menu-item-24" class="menu-li"><a href="../hours/index.html">Hours</a></li>
-				<li id="menu-item-14" class="menu-li"><a href="../directions/index.html">Directions</a></li>
-				<li id="menu-item-13" class="menu-li"><a href="../contact/index.html">Contact</a></li>
+		<div id="menuList" class="menu-container aligncenter">
+			<ul class="menu">
+				<li id="menu-item-21" class="menu-li"><a href="..\index.html">Home</a></li>
+				<li id="menu-item-16" class="menu-li"><a href="..\services\index.html">Services</a></li>
+				<li id="menu-item-16" class="menu-li"><a href="..\weddings\index.html">Weddings</a></li>
+				<li id="menu-item-54" class="menu-li"><a href="..\staff\index.html">Staff</a></li>
+				<!--<li id="menu-item-54" class="menu-li"><a href="#staff">Staff</a></li>-->
+				<li id="menu-item-24" class="menu-li"><a href="..\hours\index.html">Hours</a></li>
+				<li id="menu-item-14" class="menu-li"><a href="..\directions\index.html">Directions</a></li>
+				<li id="menu-item-13" class="menu-li"><a href="..\contact\index.html">Contact</a></li>
 			</ul>
 		</div>			
 	</nav><!-- .main-navigation -->
@@ -66,27 +71,58 @@
 
 <div id="primary" class="section">
 	<main id="main" class="site-main" role="main">
-
+		<div class="hamIcon" onclick="menuBar()">
+			MENU
+		</div>
 		
 		<article>
 	
 
 			<div class="entry-content aligncenter">
-				<p><img class="aligncenter" src="..\images\cutting-hair.jpg" alt="HairCut"  /></p>
-				<h1 class="name"style="">
+				<p><img class="aligncenter mainImgLg" src="..\images\cutting-hair.jpg" alt="HairCut"  /></p>
+				<p><img class="aligncenter mainImgMed" src="..\images\cutting-hair-300x200.jpg" alt="HairCut"  /></p>
+				<p><img class="aligncenter mainImgSm" src="..\images\cutting-hair.jpg" alt="HairCut"  /></p>
+				<h1 class="styletitle">
 					Beauty Salon Services
 				</h1>
-				<p style="padding: 1%;">
-     				Please call for wedding and special occasion packages!
-				</p>
-				<h1 class="name"style="">
-					Hair
-				</h1>
-				<h1 class="name"style="">
-					Waxing
-				</h1>
+				
+				
+				<p class="styletitle">Prices starting at:</p>
+
+			
+				<table class="aligncenter" >
+					
+					<tr>
+						<td>Women's cut</td>  
+						<td>$40</td> 
+					</tr>	
+						<tr><td>Men's cut</td>  <td>$25</td> </tr>
+
+						<tr><td>Blowdry and style</td> <td>$30</td></tr>
+						<tr><td>Root touch-up</td> <td>$55</td></tr>
+						<tr><td>Full Color</td> <td>$75</td></tr>
+						<tr><td>Partial Foil</td>  <td>$85</td> </tr>
+						<tr><td>Full foil</td>   <td>$105</td> </tr>
+						<tr><td>Perm</td> <td>$75</td></tr>
+						<tr><td>Special Occasion</td> <td>$75</td></tr> 
+						<tr><td>Balayage\Ombre</td>  <td>$135</td> </tr>
+						<tr><td>Eyebrow Wax</td> <td>$15</td> </tr>
+						<tr><td>Lip\Chin</td> <td>$10</td></tr>
+						<tr><td>Full Face</td>  <td>$30</td></tr>
+						<tr><td>Deep Conditioning Treatment</td>  <td>$20</td></tr>
+						<tr><td>Add On Olaplex</td> <td>$20</td></tr>
+					
+				</table>
+				<br>
+			
+				<img src="..\images\Lauren\Lauren5.jpg" width=35%; class="styleimg">
+				
+				
+				
 				<div class="aligncenter">
-					Call us anytime at (207) 363-3611 to set up an appointment!
+					<br>
+					Call us anytime at <a href="tel:+12073633611" class="aligncenter phone">(207) 363-3611</a> to set up an appointment!
+					<br>
 				</div>
 				
 				
@@ -101,7 +137,7 @@
 	</main><!-- .site-main -->
 	<footer role="contentinfo" class="Essefooter">
 		<div>
-						<strong style="font-size:12px;text-align:center;">&copy; 2016 Esse Studio<br>Hair salon in York, Maine offering hair and waxing services for women, men and kids.</strong>
+						<strong >&copy; 2016 Esse Studio<br>Hair salon in York, Maine offering hair and waxing services for women, men and kids.</strong>
 		</div><!-- .site-info -->
 	</footer><!-- .site-footer -->
 </div><!-- .content-area -->

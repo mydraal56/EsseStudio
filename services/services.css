@@ -1,0 +1,50 @@
+
+table { 
+    width: 40%;
+    
+    text-align: center; 
+}
+
+tr { 
+    text-align: center;
+}
+
+td { 
+    padding: 5%;
+    text-align: center;
+}
+.styletitle { 
+    
+    font-weight:bold; 
+    font-size: 2.5em;
+    text-shadow: 2px 2px grey;
+}
+
+.styleimg { 
+    border-radius: 25px;
+}
+@media screen  and (min-width: 501px) and (max-device-width : 1200px) {
+    
+    table { 
+        width: 100%;
+        border: 1px solid black; 
+        text-align: center; 
+        box-shadow: 3px 3px grey; 
+    }
+
+    tr { 
+        text-align: center;
+ 
+    }
+    th { 
+        font-size: 1.2em; 
+    }
+
+    td { 
+        padding: 3%;
+        text-align: center;
+    }
+    .styleimg { 
+        display: none; 
+    }
+}
